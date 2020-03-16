@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hide-on-med-and-down li a {
+  color: #000;
+}
+
+.brand-logo {
+  position: relative;
+  top: 10px;
+}
+nav .sidenav-trigger i {
+  color: #000;
+}
+
+.gallery {
+  position: relative;
+  top: 80px;
+  background: #eee;
+  height: 400px;
+  overflow: hidden;
+}
+
+.gallery-cell {
+  width: 76%;
+  margin-right: 10px;
+  background: #8c8;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+@media (max-width: 768px) {
+  .gallery {
+    height: 200px;
+  }
+}
+.content-head {
+  font-size: 25px;
+  color: #334e6f;
+font-weight: 700;
+padding: 10px;
+text-transform: uppercase;
+}
+
+.card{
+    height:300px ;
+}
+.card-image{
+    height: 200px;
+}
+
+p{
+    color:#677782
+}
