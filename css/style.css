@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 .hide-on-med-and-down li a {
   color: #000;
 }
@@ -63,4 +66,25 @@ p {
 
 .card-content a {
   color: #677782;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.box1{
+    width:40px;
+    border-bottom: 3px solid green;
+    border-radius: 100px;
+    position: relative;
+    left: 2px;
 }
