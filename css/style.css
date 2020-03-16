@@ -45,18 +45,22 @@ nav .sidenav-trigger i {
 .content-head {
   font-size: 25px;
   color: #334e6f;
-font-weight: 700;
-padding: 10px;
-text-transform: uppercase;
+  font-weight: 700;
+  padding: 10px;
+  text-transform: uppercase;
 }
 
-.card{
-    height:300px ;
+.card {
+  height: 300px;
 }
-.card-image{
-    height: 200px;
+.card-image {
+  height: 200px;
 }
 
-p{
-    color:#677782
+p {
+  color: #677782;
+}
+
+.card-content a {
+  color: #677782;
 }
